@@ -9,7 +9,7 @@ void score(int);
 void main() {
 	printf("Game start!\n\n);");
 	hangman();
-}
+} 
 
 int hangman()
 {
@@ -67,7 +67,7 @@ int hangman()
 		printf("\n");
 		if (strcmp(answer, problem) == 0)
 		{
-			printf("กฺกูกฺ YOU WIN กูกฺกู\n");
+			printf("ยกรยกรยกร YOU WIN ยกรยกรยกร\n");
 			break;
 		}
 		if (count == 6)
@@ -109,7 +109,7 @@ void score(int count)
 	{
 		printf("   |-------|\n");
 		printf("   o       |\n");
-		printf(" ก็|  	   |\n");
+		printf(" ยกรง|  	   |\n");
 		printf("           |\n");
 		printf("           ^\n");
 	}
@@ -117,7 +117,7 @@ void score(int count)
 	{
 		printf("   |-------|\n");
 		printf("   o       |\n");
-		printf(" ก็|กๆ 	   |\n");
+		printf(" ยกรง|ยกรฆ 	   |\n");
 		printf("           |\n");
 		printf("           ^\n");
 	}
@@ -125,16 +125,16 @@ void score(int count)
 	{
 		printf("   |-------|\n");
 		printf("   o       |\n");
-		printf(" ก็|กๆ 	   |\n");
-		printf("  ก้       |\n");
+		printf(" ยกรง|ยกรฆ 	   |\n");
+		printf("  ยกรฉ       |\n");
 		printf("           ^\n");
 	}
 	else if (count == 6)
 	{
 		printf("   |-------|\n");
 		printf("   o       |\n");
-		printf(" ก็|กๆ 	   |\n");
-		printf("  ก้ก้     |\n");
+		printf(" ยกรง|ยกรฆ 	   |\n");
+		printf("  ยกรฉยกรฉ     |\n");
 		printf("           ^\n");
 	}
 }
