@@ -70,7 +70,7 @@ int hangman()
 			printf("¡Ú¡Ù¡Ú YOU WIN ¡Ù¡Ú¡Ù\n");
 			break;
 		}
-		if (count == 6)
+		if (count == 6) 
 		{
 			printf("You lost. Try again\n");
 			printf("The answer is \"%s\"\n", problem);
